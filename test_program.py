@@ -12,7 +12,7 @@ def test_program():
         'репозитория'
 
     try:
-        pass
+        import program
     except Exception as e:
         assert False, (
             'Не удалось запустить `program.py`. '
